@@ -32,45 +32,19 @@ html {
   z-index: 1;
   pointer-events: none;
 }
-/* Add an inner dot */
+
 .cursor-dot::before {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 12px; /* Adjust the size of the inner dot */
-  height: 12px; /* Adjust the size of the inner dot */
-  background-color: #003566; /* Set the color of the inner dot */
+  width: 12px;
+  height: 12px;
+  background-color: #003566;
   border-radius: 50%;
-  z-index: 2; /* Place it above the outline */
+  z-index: 2;
 }
-
-/*#karki-typewriter {
-  white-space: nowrap;
-  overflow: hidden;
-  color: #003566;
-  margin: 0 0;
-  width: 56%;
-  border-right: 0.15px solid #003566; /* The typewriter cursor 
-  animation: typing 2s steps(14), cursor 0.75s step-end infinite alternate;
-}
-
-
-@keyframes cursor {
-  50% {
-    border-color: transparent;
-  }
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}*/
 
 #hamburger-nav {
   display: none;
@@ -85,7 +59,6 @@ html {
 }
 #sidebar-menu {
   position: absolute;
-  /* Other styles for your menu */
 }
 .hamburger-icon {
   display: flex;
